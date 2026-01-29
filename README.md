@@ -9,7 +9,7 @@ Sistema web desenvolvido para gerenciamento de eventos, permitindo cadastro de u
 - Persistência de dados em banco de dados
 
 ### Tecnologias
-- Python / Java / JavaScript (o que você usou)
+- Python / Java / JavaScript
 - Banco de dados SQL
 - HTML, CSS
 
