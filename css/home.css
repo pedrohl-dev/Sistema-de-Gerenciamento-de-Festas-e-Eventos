@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(121, 159, 241);
+    z-index: 10;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 136, 235);
+    color: #fff;
+    z-index: 10;
+}
+
+.title-nav{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+}
+
+section{
+    height: calc(100% - 130px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout{
+    padding: 4px;
+    width: 70px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(77, 83, 231);
+    border: 2px solid rgb(77, 83, 231);
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    transition: 0.2s;
+    right: 20px;
+    bottom: 10px;
+    box-shadow: 0 0 6px black;
+
+    &:hover{
+        background-color: #fff;
+        color: rgb(8, 10, 78);
+        border: 2px solid rgb(77, 83, 231);
+
+    }
+}
+
+.content{
+    width: 85vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 20px #00000075;
+    border-radius: 36px;
+    overflow-y: auto;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(104, 104, 104, 0.5);
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 10px;
+
+    th, td{
+        padding: 8px;
+        border: 1px solid gray;
+        text-align: left;
+    }
+    .actions a{
+        margin-right: 8px;
+    }
+}
+
+.nomeevento{
+    width: 300px;
+}
+
+.datalocal{
+    width: 400px;
+}
+
