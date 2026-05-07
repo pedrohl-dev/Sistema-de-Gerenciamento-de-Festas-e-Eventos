@@ -2,6 +2,15 @@
 
 Sistema web desenvolvido para gerenciamento de eventos, permitindo cadastro de usuários, login e criação/exclusão de festas.
 
+Acesse o projeto aqui --> https://sgfel.infinityfreeapp.com/
+
+Usuarios para login:
+visitante@email.com
+admin@email.com
+expositor@email.com
+
+### A senha de todas as contas são " 123 "
+
 ### Funcionalidades
 - Cadastro e autenticação de usuários
 - Criação e exclusão de eventos
@@ -9,7 +18,7 @@ Sistema web desenvolvido para gerenciamento de eventos, permitindo cadastro de u
 - Persistência de dados em banco de dados
 
 ### Tecnologias
-- Python / Java / JavaScript
+- PHP e JavaScript
 - Banco de dados SQL
-- HTML, CSS
+- HTML5, CSS3
 
