@@ -5,9 +5,13 @@ Sistema web desenvolvido para gerenciamento de eventos, permitindo cadastro de u
 Acesse o projeto aqui --> https://sgfel.infinityfreeapp.com/
 
 Usuarios para login:
+
 visitante@email.com
+
 admin@email.com
+
 expositor@email.com
+
 
 ### A senha de todas as contas são " 123 "
 
